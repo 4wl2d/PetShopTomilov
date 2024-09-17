@@ -26,6 +26,8 @@ namespace PetShopTomilov
 
             Classes.Manager.MainFrame = MainFrame;
             Classes.Manager.MainFrame.Navigate(new Pages.LoginPage());
+
+            // TODO
         }
     }
 }

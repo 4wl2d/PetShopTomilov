@@ -27,7 +27,7 @@ namespace PetShopTomilov.Pages
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
-            
+            // TODO
         }
 
         private void GuestButton_Click(object sender, RoutedEventArgs e)
