@@ -56,13 +56,13 @@ namespace PetShopTomilov.Pages
                     switch(user.Role.RoleName)
                     {
                         case "Администратор":
-                            Classes.Manager.MainFrame.Navigate(new Pages.ViewProductsPage());
+                            Domain.Managers.Manager.MainFrame.Navigate(new Pages.ViewProductsPage());
                             break;
                         case "Клиент":
-                            Classes.Manager.MainFrame.Navigate(new Pages.ViewProductsPage());
+                            Domain.Managers.Manager.MainFrame.Navigate(new Pages.ViewProductsPage());
                             break;
                         case "Менеджер":
-                            Classes.Manager.MainFrame.Navigate(new Pages.ViewProductsPage());
+                            Domain.Managers.Manager.MainFrame.Navigate(new Pages.ViewProductsPage());
                             break;
                     }
 
@@ -81,7 +81,7 @@ namespace PetShopTomilov.Pages
 
         private void GuestButton_Click(object sender, RoutedEventArgs e)
         {
-
+            Domain.Managers.Manager.MainFrame.Navigate(new Pages.ViewProductsPage());
         }
     }
 }
