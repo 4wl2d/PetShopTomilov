@@ -23,6 +23,33 @@ namespace PetShopTomilov.Pages
         public ViewProductsPage()
         {
             InitializeComponent();
+
+            ProductListView.ItemsSource = Data.PetShopEntities.getContext().Product.ToList();
+        }
+
+        private void SearchTextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void SortUpRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void SortDownRadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void DeleteButton_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

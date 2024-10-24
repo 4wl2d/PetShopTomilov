@@ -24,8 +24,10 @@ namespace PetShopTomilov
         {
             InitializeComponent();
 
-            Classes.Manager.MainFrame = MainFrame;
-            Classes.Manager.MainFrame.Navigate(new Pages.LoginPage());
+            Domain.Managers.Manager.getImageData();
+
+            Domain.Managers.Manager.MainFrame = MainFrame;
+            Domain.Managers.Manager.MainFrame.Navigate(new Pages.LoginPage());
 
             // TODO
         }
